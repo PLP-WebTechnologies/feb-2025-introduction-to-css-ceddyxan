@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Advanced HTML5 Elements and Forms</title>
+            <style>h1{
+                text-align: center;}
+            </style>
+            <!--External Styling/css -->
+        <link rel="stylesheet" href="styles/style.css">
+        </head>
+        <body>
+            <header>
+                <h1>Implementing HTML5 Images, Lists, Tables & Forms</h1>
+                <nav style="text-align: center;">
+                    <a class="navigator" href="#home">Home</a> |
+                    <a class="navigator" href="Services">What We Offer</a> |
+                    <a class="navigator" href="About">Tell us more</a>|
+                    <a class="navigator" href="#contact">Contact Us</a>
 
+                    </nav>
+            </header>
+            <h3>List of Vehicles</h3>
+            <ol type="i" start="1">
+                <li>Toyota</li>
+                <ul>
+                    <li>Prado</li>
+                    <li>Hilux</li>
+                    <li>Probox</li>
+                    <li>Auris</li>
+                </ul>
+                <li>Honda</li>
+                <ul>
+                    <li>Fit</li>
+                    <li>Civic</li>
+                    <li>Accord</li>
+                    <li>CR-V</li>
+                </ul>
+                <li>Nissan</li>
+                <li>Mercedes</li>
+                <li>Volkswagen</li>
+            </ol>
+            <h3 style="text-align: center;">Appreciating Teachers and Sports</h3>
+            <img src="https://images.pexels.com/photos/6334887/pexels-photo-6334887.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Appreciate the Teachers" height="400" width="600">
+            <img src="Player.png" height="400" width="500">
+
+            <h3 style="text-align: center;">Contacts Table</h3>
+            <table id="tbl-data">
+                <thead>
+                    <tr>
+                        <th> Name</th>
+                        <th> Address</th>
+                        <th> Mobile</th>
+                        <th> Emails</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Arnold</td>
+                        <td>Nakuru</td>
+                        <td>07263717</td>
+                        <td>arn@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Jarvis</td>
+                        <td>Molo</td>
+                        <td>07226754</td>
+                        <td>jar@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>James</td>
+                        <td>Nairobi</td>
+                        <td>07386655</td>
+                        <td>jam@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Diana</td>
+                        <td>Mombasa</td>
+                        <td>07251234</td>
+                        <td>dia@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Kimberly</td>
+                        <td>Nyeri</td>
+                        <td>07336985</td>
+                        <td>kim@gmail.com</td>
+                    </tbody>
+            </table>
+            <h3>Registration Form</h3>
+            <form class="my_frm" action="" method="">
+                <label for="full_name">Full Names:</label>
+                <input type="text" id="full_name" name="full_name" placeholder="Enter your full names here" required>
+                <br><br>
+                <label for="email">Email:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                <input type="text" id="email" name="email" placeholder="Enter your here" required>
+                <br><br>
+                <label for="password">Password:</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="password" id="password" name="password" placeholder="Enter your password here" required>
+                <br><br>
+                <label for="date">Date:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="date" id="dateField" name="dateField" placeholder="YYYY-MM-DD" required>
+                <br><br>
+                <label for="country">Country:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <select name="country" id="country" required>&nbsp&nbsp&nbsp&nbsp
+                    <option>--Select Country--</option>
+                    <option value="South Africa">Kenya</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Rwanda">Uganda</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Namibia">Namibia</option>                  
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Ghana">Ghana</option>
+                </select>
+                <br><br>        
+                <label for="gender">Gender:</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Not_Say">Not Say
+                <br><br>
+                <label for="languages">Languages:</label>
+                <input type="checkbox" name="languages" value="English">English
+                <input type="checkbox" name="languages" value="Swahili">Swahili
+                <input type="checkbox" name="languages" value="French">French
+                <input type="checkbox" name="languages" value="Chinese">Chinese
+                <br><br>
+                
+                <br><br>
+                <input type="submit" value="Register">
+                <button type="reset">Cancel</button>
+            </form>
+                                      
+            <footer>
+                <p>© 2025 The Best Web | We Value You |</p>
+                <p>Email: cc@gmail.com  |</p>
+                <p>Address: 123 GPO, Nairobi, Kenya</p>
+            </footer>
+        </body>
+    </html>

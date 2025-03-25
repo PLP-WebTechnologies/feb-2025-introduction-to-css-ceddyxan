@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgreen; 
+    color: #0e0d0d; 
+    margin: 0;
+    padding: 5;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.my_frm {
+    border: 5px solid olive;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 40%;
+}
+
+h1, h3{
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th, td {
+    border: 2px dotted blueviolet;
+    background-color: antiquewhite;
+    align-self: normal;
+    padding: 20px;
+}
+
+img {
+    border: 15px double whitesmoke;
+    border-radius: 20px;
+    background-color: olive;
+    margin: 10px;
+    padding: 20px;
+  }
+.navigator {
+    color: peru;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+th{
+    background-color: grey;
+    color: white;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+    color: darkgreen;
+}
+
+label {
+    font-family: monospace;
+    font-style: oblique;
+    font-weight: 20;
+    font-size: larger;
+}
+
+#tbl-data {
+    width: 95%;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+}
